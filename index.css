@@ -1,0 +1,102 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  h1{
+    color:#555;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 50px;
+    font-size: 40px;
+    
+  }
+  .border{
+    border-radius: 40px;
+    padding: 20px 300px 20px 30px;
+    font-size: 17px;
+    color: #555;
+    border-color:rgb(215, 215, 196);
+}
+  
+  .card-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .card-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #444;
+    padding-left:45%;
+   
+  }
+  
+  .card-image img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card-types {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .type {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .grass {
+    background-color: #78C850;
+  }
+  
+  .poison {
+    background-color: #A040A0;
+  }
+  
+  .fire {
+    background-color: #F08030;
+  }
+  
+  .flying {
+    background-color: #A890F0;
+  }
+  
